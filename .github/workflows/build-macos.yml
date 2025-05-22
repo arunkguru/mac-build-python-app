@@ -24,7 +24,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile your_script.py
+          pyinstaller --onefile Pixel calculator.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
